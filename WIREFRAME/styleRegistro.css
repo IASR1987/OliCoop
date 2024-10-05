@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(238, 234, 234), rgb(240, 240, 236)); /* Gradiente de oliva a verde */
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.formulario {
+    width: 100vw;
+    height: 100vw;
+    padding: 3%;
+}
+
+label{
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom:2%;
+}
+
+input{
+    margin-bottom: 6%;
+    width: 90%;
+    height: 2rem;
+    justify-content: center;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-shadow: 2vw 2vh 2rem 0 rgb(223, 223, 174);
+}
+
+button {
+    width: 91%;
+    margin-top: 6%;
+    background-color: rgb(97, 128, 27);
+    border: none; /* Sin borde */
+    padding: 15px; /* Espaciado interno del botón */
+    margin: 10px; /* Espacio entre botones */
+    color: beige;
+    font-size: 1rem;
+    border-radius: 3%;
+    /*box-shadow: [desplazamiento horizontal] [desplazamiento vertical] [difuminado] [extensión] [color];*/
+    box-shadow: 2vw 2vh 8rem 0 rgb(223, 223, 174);
+}
+a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none; /*quitar la linea del a*/
+    width: 100vw;
+    margin-top: 14vh;
+}

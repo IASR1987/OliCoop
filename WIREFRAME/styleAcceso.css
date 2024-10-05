@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(238, 234, 234), rgb(240, 240, 236)); /* Gradiente de oliva a verde */
+    height: 100vh;
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+}
+.inscripcionForm{
+    width: 100vw;
+    height: 100vw;
+}
+label{
+    font-size: 1.4rem;
+    margin-bottom:2%; 
+}
+
+input{
+    margin-bottom: 6%;
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-shadow: 2vw 2vh 2rem 0 rgb(223, 223, 174);
+}
+
+button {
+    width: 91%;
+    margin-top: 6%;
+    background-color: rgb(97, 128, 27);
+    border: none;
+    height: 6vh;  
+    color: beige;
+    font-size: 1.5rem;
+    border-radius: 3%;
+    /*box-shadow: [desplazamiento horizontal] [desplazamiento vertical] [difuminado] [extensión] [color];*/
+    box-shadow: 2vw 2vh 8rem 0 rgb(223, 223, 174);
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /*quitar la linea del a*/
+    width: 84%;
+}
+
+.recu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.recuperacion{
+    margin-top: 10vh;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+}

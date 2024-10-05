@@ -1,0 +1,557 @@
+body {
+    margin: 0;/*Restablecer márgenes y relleno: Los navegadores aplican márgenes y relleno por defecto*/
+    padding: 0;/*idem*/ 
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-direction:row;
+}
+
+.icono{
+    width: 25vw;/*viewport width*/
+    height: 20vh;/*viewport height): Un porcentaje de la altura de la ventana gráfica 100vh es igual al 100% de la altura del viewport.*/
+}
+.espacio{
+    width: 25vw;/*viewport width*/
+    height: 20vh;
+}
+.encabezado{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 118, 156);
+    font-size: 1.2rem;          
+    display: flex;            
+    justify-content: space-around; 
+    align-items: center;       
+    width: 60vw;
+    height: 20vh;
+
+}
+
+.sin-subrayado {
+    text-decoration: none; /* Asegurarse de que esta clase no tenga subrayado */
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+}
+.btn{
+    width: 8vw;
+    height: 5vh;
+    color: rgb(249, 249, 251);
+    background-color: #0e7dd89c;
+}
+
+.contenedor{
+    background-color: #676b6532;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+}
+.tamanno{
+    width: 40vw;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    font-size: 6vh;
+    margin-top: 5%;
+}
+
+.tituloParrafo{
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 1%;
+    font-size: 1.8rem;
+}
+
+.parrafo{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 1rem;
+    margin-top: 1%;
+}
+.imagenes{
+    margin-top: 5%;
+}
+
+
+.btn-prueba{
+    height: 5vh;
+    width: 10vw;
+    background-color: yellow;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+.fotoOlivar{
+    width: 29rem;
+    height: 24rem;
+}
+
+.foto2{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    margin-top: -8%;
+}
+.ordenador{
+    width: 20vw;
+    height: 22vh;
+    
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: row;               
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.opinion {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 40vw;
+    background: linear-gradient(to bottom, #9fa2a2, #ddd8d8); /* Gradiente de verde a gris claro */    border-radius: 5%;         
+    box-shadow: 0 10vh 15vh rgb(0, 0, 0); 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.agricultor{
+    margin-top: 2%;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 5%;
+}
+
+.textoOpinion{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nombre{
+    font-size: 1.2rem;
+}
+
+/*FORMULARIO*/
+.containerForm{
+    background-image: url(imagenes/olivarForm.jpeg); /* Ruta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-color: #126059;
+    width: 70vw;
+    height: fit-content;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 3%;
+    margin-top: 10%;
+    flex-wrap: wrap;
+}
+
+.textoForm{
+    margin-top: 10%;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.66); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+}
+
+.textoForm p {
+    margin: 0; 
+    color: black;
+    margin-bottom: 3%; 
+}
+.parrafoGrandeFormulario{
+    font-size:1.6rem;
+}
+.parrafoFormu{
+    font-size: 1rem;
+}
+.formulario {
+    width: fit-content;
+    height: fit-content;
+    padding: 2%; 
+    background-color: rgba(255, 255, 255, 0.66); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center; 
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaciado entre los grupos de formulario */
+}
+
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espacio inferior para la etiqueta */
+}
+
+input{
+    width: 90%;
+    padding: 1vw;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-shadow: 0 5px 10px black;
+}
+
+button {
+    width: 100%;
+    padding: 0.3vw;
+    background-color: #d2fa07;
+    color: rgb(0, 0, 0); 
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+    font-size: 16px;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: rgba(41, 48, 48, 0.4);
+    color: rgba(0, 0, 0, 0.881);
+    margin-top: 6%;
+    font-size: 1.5rem;
+    height: fit-content;
+}
+
+footer .p{
+    font-size: 1rem;          
+    margin: 5px 0;      /*espacio parrafo*/
+
+}
+
+.containerFooter{
+    display: flex;           
+    flex-direction: column;
+}
+
+
+.Footy1{
+    display: flex;           
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 10vw;
+    width: 100vw;
+    height: 20vh;
+}
+
+.Footy1 p{
+    font-size: 1rem;
+    margin-bottom: 2%;          
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.Footy2{
+    width: 100vw;
+    margin-top: 8vw;
+    justify-content: flex-start;
+}
+
+.derechos {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center; 
+    
+    margin: 1vw;
+}
+
+.derechos p {
+    margin: 0; 
+    color: black; 
+    font-size: 1rem;
+}
+
+
+
+/* Estilos para laptops (1024px a 1280px) */
+@media (max-width: 1280px) {
+    .encabezado{
+        font-size: 100%;          
+    }
+    .tituloParrafo{
+        font-size: 1.4rem;
+    }
+    
+    .parrafo{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 80%;
+        flex-wrap: nowrap;
+    }
+    
+    .opinion{
+        height: fit-content;
+    }
+
+    .agricultor{
+        height: 10rem;
+        width: 10rem;
+    }
+    .textoOpinion{
+        font-size: 1rem;
+    }
+    
+    .nombre{
+        font-size: 1.2rem;
+    }
+
+    .containerForm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .parrafoGrandeFormulario{
+        font-size:1.2rem;
+    }
+    .parrafoFormu{
+        font-size: 0.8rem;
+    }
+    
+    label {
+        width: 80%;
+    }
+    
+    input{
+        width: 80%;
+        padding: 0.2vh;
+    }
+    
+    button {
+        width: 80%;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+    .foto2{
+        margin-left: 2%;
+        margin-top: -11%;
+    }
+    .ordenador{
+        width: 14rem;
+        height: 10rem;
+        
+    }
+    .fotoOlivar{
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 35vw;
+        height: 40vh;
+    }
+
+@media (max-width: 1024px) {
+    .encabezado{
+        font-size: 0.8rem;          
+    }
+    .tituloParrafo{
+        font-size: 1.2rem;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+    .parrafoGrandeFormulario{
+        font-size:1rem;
+    }
+    .parrafoFormu{
+        font-size: 0.6rem;
+    }
+
+    .opinion{
+        height: fit-content;
+    }
+    .agricultor{
+        height: 8rem;
+        width: 8rem;
+    }
+    .textoOpinion{
+        font-size: 0.8rem;
+    }
+    
+    .nombre{
+        font-size: 1rem;
+    }
+    .foto2{
+        margin-top: -15%;
+    }
+    .ordenador{
+        width: 25vw;
+        height: 20vh;
+    }
+    .fotoOlivar{
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 35vw;
+        height: 40vh;
+    }
+
+
+
+}
+@media (max-width: 768px){
+    header {
+        font-size:medium;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .espacio{
+        display: none;
+    }
+    .encabezado{
+        width: 100vh;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+    .sin-subrayado{
+        justify-content: center;
+        width: 100%; 
+        max-width: 100%;
+        height: 10%;
+        font-size: 1rem;
+    }
+    .btn{
+        width: 50%;
+        margin-top: 1vh;
+    }
+    .contenedor{
+        margin:0%;
+        padding: 0%;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cuerpo{
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20%;
+        height: fit-content;
+    }
+    .imagenes{
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tituloParrafo{
+        font-size: 1.5rem;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+    .btn-prueba{
+        height: 5vh;
+        width: 15vw;
+        background-color: yellow;
+        font-size: 0.8rem;
+    }
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+
+    .formulario{
+        margin-top: 3%;
+    }
+
+    .fotoOlivar{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 44vw;
+        height: 23vh;
+    }
+
+    .foto2{
+        margin-top: 10%;
+    }
+
+    .scroll-container{
+        flex-direction: column;
+        margin: auto;
+        padding:0%
+    }
+
+    .opinion{
+        margin-top: 4%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloParrafo{
+        margin:auto;
+        font-size: 1.3rem;
+    }
+    .parrafo{
+        font-size: 0.8rem;
+    }
+    .btn-prueba{
+        height: 5vh;
+        width: 25vw;
+        background-color: yellow;
+        font-size: 0.6rem;
+    }
+
+    .textoOpinion{
+        font-size: 0.6rem;
+    }
+    
+    .nombre{
+        font-size: 0.8rem;
+    }
+}
+
+}

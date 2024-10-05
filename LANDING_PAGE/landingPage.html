@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!--Enlace CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<body>
+    <header>
+        <div>
+            <img src="imagenes/icono.jpg" alt="Logo de la página" class="icono">
+        </div>
+        
+        <div class="espacio"></div>
+        <div class="encabezado">
+            
+            <a href="soluciones.html" class="sin-subrayado">SOLUCIONES</a>
+            <a href="clientes.html" class="sin-subrayado">CLIENTES</a>
+            <a href="precios.html" class="sin-subrayado">PRECIOS</a>
+            <i class="fas fa-search icon sin-subrayado"></i> <!-- Icono de lupa -->
+            <button class="btn" type="button" >REGÍSTRATE</button>
+            <button class="btn" type="button" >ACCEDER  <i class="fas fa-lock icon"></i> <!-- Icono de candado --></button>
+            <!--Font Awesome
+            Font Awesome es una de las bibliotecas de íconos más populares y ofrece una gran variedad de íconos, incluidos candados y lupas.
+            Puedes utilizar Font Awesome para agregar íconos de forma sencilla.
+            <i class="fas fa-lock icon"></i>Icono de candado --
+            <i class="fas fa-search icon"></i> <!- Icono de lupa --
+            <i class="fas fa-home icon"></i> <!- Icono de casa --
+            <i class="fas fa-user icon"></i> <!- Icono de usuario --
+            <i class="fas fa-cog icon"></i> <!- Icono de engranaje -->
+        </div>
+    </header>
+
+
+<!--CUERPO PRINCIPAL-->
+    <container class="contenedor">
+        <div class="cuerpo tamanno">
+            <p class="tituloParrafo">Digitaliza tus labores y controla </p>
+            <p class="tituloParrafo">tu olivar en tiempo real</p>
+            <p class="parrafo"><i class='far fa-check-square'></i> Conoce lo que ocurres en tu explotación sin retrasos ni errores.</p>
+            <p class="parrafo"><i class='far fa-check-square'></i> Controla tus costes agrícolas: fitosanitarios, abonos, ...</p>
+            <p class="parrafo"><i class='far fa-check-square'></i> Obtén y gestiona tu Cuaderno de Campo.</p>
+            <p class="parrafo"><i class='far fa-check-square'></i> Gestiona tus documentos desde tu móvil</p>
+            <button class="btn-prueba" type="button" >PRUÉBALO GRATIS</button>
+        </div>
+        <div class="imagenes tamanno">
+            <img src="imagenes/Olivar.jpg" alt="foto de unas acietunas" class="fotoOlivar">
+        </div>
+
+        
+    </container>
+    <div class="foto2">
+        <img src="imagenes/graficas.jpg" alt="dibujo de unas gáficas y un ordenador" class="ordenador">
+    </div>
+    
+
+<!--OPINIONES-->
+    <div class="scroll-container">
+        <div class="opinion">
+            <img src="imagenes/agricultor1.jpg" alt="Agricultor1" class="agricultor">
+            <p class="textoOpinion">Controlo todo desde mi movil, una gran ayuda.</p>
+            <p class="nombre"><i>Antonio, Úbeda(Jaén)</i></p>
+        </div>
+        <div class="opinion">
+            <img src="imagenes/agricultor2.jpg" alt="Agricultor2" class="agricultor">
+            <p class="textoOpinion">Perfecto para tener controlada tu explotación.</p>
+            <p class="nombre"><i>Teresa, Cabra(Córdoba)</i></p>
+        </div>
+        <div class="opinion">
+            <img src="imagenes/agricultor3.jpg" alt="Agricultor3" class="agricultor">
+            <p class="textoOpinion">Mi cuaderno de campo siempre actualizado.</p>
+            <p class="nombre"><i>Paco, Guadalcanal(Sevilla)</i></p>
+        </div>
+    </div>
+
+<!--FORMULARIO-->
+    <div class="containerForm">
+        <div class="textoForm">
+            <p class="parrafoGrandeFormulario">Obtén tu presupuesto</p>
+            <p class="parrafoFormu">✅ Paga solamente por las funcionalidades que usas.</p>
+            <p class="parrafoFormu">✅ Sin inversión inicial, amortizado desde el primer mes.</p>
+            <p class="parrafoFormu">✅ Implementación rápida.</p>
+            <p class="parrafoFormu">✅ Gestionamos la implemenatción en su Cooperativa.</p>
+            <p class="parrafoGrandeFormulario">Avanza hacia el futuro con Olicoop</p>
+        </div>
+        <div class="formulario">
+            <h1>Formulario de Inscripción</h1>
+            <form id="inscripcionForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+<!--FOOTER-->
+    <footer>
+        <div class="containerFooter">
+            <div class="Footy1">
+                <div class="contacto">
+                    <p class="p"><i class="fas fa-phone-alt"></i> 659846375</p>
+                    <p class="p"><i class="fas fa-envelope"></i> contacto@olicoop.com</p>
+                    
+                    <div>
+                        <a href="https://facebook.com/ejemplo" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/ejemplo" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/ejemplo" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i></a>   
+                    </div>
+                        
+                    <div>
+                        <img src="imagenes/descargas2.jpg">
+                        <img src="imagenes/descargas.jpg">
+                    </div>
+                    
+                </div>
+                <div class="Info">
+                    <p><strong>SOBRE NOSOTROS</strong></p>
+                    <p>Quienes somos</p>
+                    <p>Opiniones de clientes</p>
+                    <p>Contactar</p>
+                </div>
+                <div class="App">
+                    <p><strong>NUESTRA APP</strong></p>
+                    <p>Funcionalidades</p>
+                    <p>Servicios a Cooperativas</p>
+                    <p>Precios</p>
+                </div>
+            </div>
+        
+            <div class="Footy2">
+                <hr style="border: none; height: 2px; background-color: #030303; width: 100vw; margin-top: -5%;">
+                <div class="derechos">
+                    <p>© 2024 Olicoop S.L.</p>
+                    <p>Preguntas frecuentes</p>
+                    <p>Condiciones de uso</p>
+                    <p>Política de Privacidad</p>
+                    <p>Aviso Legal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

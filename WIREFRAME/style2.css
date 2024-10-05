@@ -1,0 +1,69 @@
+body {
+    margin: 0;/*Restablecer márgenes y relleno: Los navegadores aplican márgenes y relleno por defecto*/
+    padding: 0;/*idem*/
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(238, 234, 234), rgb(240, 240, 236)); /* Gradiente de oliva a verde */
+}
+
+
+header {
+    padding: 10px 0;
+    display: flex;
+    flex-direction:column;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+
+.titulo{
+    height: 10vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:auto;
+    height: 50vh;
+    
+}
+.fila{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila1{
+    width: 30vw;
+    height: 14vh;
+    display: flex;              
+    flex-direction: column;
+    align-items: center;         
+    justify-content: space-around;
+    border-radius: 10%;
+    border-color: black;
+    border: solid;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.imagenMenu{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10%;
+}
+
+.submenu{
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+}

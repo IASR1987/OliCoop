@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgb(238, 234, 234), rgb(240, 240, 236)); /* Gradiente de oliva a verde */
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    height: 100vh; /* Asegura que la altura ocupe toda la ventana */
+}
+
+.parrafo {
+    font-size: 3rem;
+    font-weight: 700; /* O un valor numérico como 700 para texto más grueso */
+    text-align: left; 
+    margin: 3vw 0 5vw 3vw; /* top-right-bottom-left*/
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.imagenEmpresa {
+    width: 50vw;
+    margin-bottom: 10vh;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /*quitar la linea del a*/
+    width: 100%;
+}
+
+.btn-prueba {
+    width: 60%; /* Ocupa el 60% del ancho de la pantalla */
+    background-color: rgb(97, 128, 27); /* Color de fondo de los botones */
+    border: none; /* Sin borde */
+    padding: 15px; /* Espaciado interno del botón */
+    margin: 10px; /* Espacio entre botones */
+    color: beige;
+    font-size: 1rem;
+    border-radius: 3%;
+    /*box-shadow: [desplazamiento horizontal] [desplazamiento vertical] [difuminado] [extensión] [color];*/
+    box-shadow: 2vw 2vh 8rem 0 rgb(223, 223, 174);
+}
+
+
